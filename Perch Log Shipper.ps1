@@ -5,7 +5,7 @@ $downloadUrl = "https://cdn.perchsecurity.com/downloads/perch-log-shipper-latest
 $Token = "$ENV:PerchToken"
 
 # Define the local path to save the downloaded .EXE file
-$downloadPath = "C:\temp\perch-log-shipper-latest.exe"
+$downloadPath = ".\perch-log-shipper-latest.exe"
 
 # Download the .EXE file
 Invoke-WebRequest -Uri $downloadUrl -OutFile $downloadPath
